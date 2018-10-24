@@ -66,6 +66,8 @@ header>ul>li>a{
     border-radius: 3px;
 }
 
+    /*About*/
+
 .about_project{
     padding: 5px;
 }
@@ -87,6 +89,61 @@ header>ul>li>a{
     text-indent: 10px;
     text-align: justify;
     line-height: 18px;
+}
+
+    /*Tasks block*/
+
+.task{
+    margin: 5px;
+    width: 940px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    justify-content: flex-start;
+    box-shadow: 0 0 2px darkgrey; /* Параметры тени */
+    border-radius: 3px;
+}
+.number{
+    width: 30px;
+    color: #868686;
+    padding: 5px;
+}
+.task_name{
+    flex-grow: 1;
+    text-align: left;
+    color: darkgrey;
+    text-decoration: none;
+    padding: 5px;
+}
+.task_name:hover{
+    color: darkblue;
+}
+.task_condition{
+    width: 900px;
+    text-align: justify;
+    text-indent: 10px;
+    padding: 5px;
+    display: none;
+}
+
+    /*Footer*/
+
+footer{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    width: 960px;
+    height: 30px;
+    box-shadow: 0 0 2px darkgrey; /* Параметры тени */
+    border-radius: 3px;
+    justify-content: center;
+    align-content: center;
+
+}
+footer>span{
+    height: 20px;
+    font-size: 14px;
+    vertical-align: center;
+    color: #e0e0e0;
 }
 
 
