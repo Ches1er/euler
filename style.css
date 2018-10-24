@@ -119,13 +119,19 @@ header>ul>li>a{
     color: darkblue;
 }
 .task_condition{
-    width: 900px;
-    text-align: justify;
-    text-indent: 10px;
-    padding: 5px;
-    display: none;
+     width: 900px;
+     text-align: justify;
+     text-indent: 10px;
+     padding: 5px;
+
 }
 
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
     /*Footer*/
 
 footer{
