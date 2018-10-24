@@ -21,6 +21,7 @@ header{
     display: inline-flex;
     flex-flow: column nowrap;
     box-shadow: 0 0 2px darkgrey; /* Параметры тени */
+    border-radius: 3px;
 }
 
 header>h1{
@@ -56,6 +57,38 @@ header>ul>li>a{
 }
 
     /*Content*/
+
+.content{
+    margin-top: 10px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    box-shadow: 0 0 2px darkgrey; /* Параметры тени */
+    border-radius: 3px;
+}
+
+.about_project{
+    padding: 5px;
+}
+
+.about_project>h2{
+    color: darkgrey;
+    text-align: left;
+    font-size: 24px;
+    margin: 0 0 15px 10px;
+}
+
+.about_project>h3{
+    color: #868686;
+    text-align: left;
+    font-size: 18px;
+    margin: 20px 0 5px 10px;
+}
+.about_project>p{
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 18px;
+}
+
 
 
 
