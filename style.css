@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.container{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    width: 960px;
+    margin: 5px;
+    padding: 5px;
+}
+
+    /*Header*/
+
+header{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    box-shadow: 0 0 2px darkgrey; /* Параметры тени */
+}
+
+header>h1{
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: darkgrey;
+    margin-left: 10px;
+}
+
+header>ul{
+    list-style: none;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+header>ul>li{
+    display: inline;
+    padding: 5px 15px 5px 15px;
+
+}
+
+header>ul>li>a{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+    /*Content*/
+
+
+
+
