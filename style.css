@@ -138,6 +138,10 @@ header>ul>li:last-child>a{
     margin: 20px 0 5px 10px;
     text-indent: 10px;
 }
+pre{
+    margin-top: 5px;
+    font-size: 14px;
+}
 
 .hide{
     display: none;
